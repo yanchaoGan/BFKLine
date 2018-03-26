@@ -13,6 +13,10 @@
 		0D70306020694E9600ED4C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D70305F20694E9600ED4C41 /* Assets.xcassets */; };
 		0D70306320694E9600ED4C41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D70306120694E9600ED4C41 /* LaunchScreen.storyboard */; };
 		0D70306620694E9600ED4C41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70306520694E9600ED4C41 /* main.m */; };
+		0D70307720694EB200ED4C41 /* BFKLineConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70306E20694EB200ED4C41 /* BFKLineConfig.m */; };
+		0D70307820694EB200ED4C41 /* BFKLineMaskTipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D70307120694EB200ED4C41 /* BFKLineMaskTipView.xib */; };
+		0D70307920694EB200ED4C41 /* BFKLineMaskTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70307220694EB200ED4C41 /* BFKLineMaskTipView.m */; };
+		0D70307A20694EB200ED4C41 /* BFKLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70307320694EB200ED4C41 /* BFKLineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,15 @@
 		0D70306220694E9600ED4C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D70306420694E9600ED4C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D70306520694E9600ED4C41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D70306D20694EB200ED4C41 /* BFKLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFKLineView.h; sourceTree = "<group>"; };
+		0D70306E20694EB200ED4C41 /* BFKLineConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFKLineConfig.m; sourceTree = "<group>"; };
+		0D70307020694EB200ED4C41 /* BFKLineMaskTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFKLineMaskTipView.h; sourceTree = "<group>"; };
+		0D70307120694EB200ED4C41 /* BFKLineMaskTipView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFKLineMaskTipView.xib; sourceTree = "<group>"; };
+		0D70307220694EB200ED4C41 /* BFKLineMaskTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFKLineMaskTipView.m; sourceTree = "<group>"; };
+		0D70307320694EB200ED4C41 /* BFKLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFKLineView.m; sourceTree = "<group>"; };
+		0D70307420694EB200ED4C41 /* BFKLineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFKLineConfig.h; sourceTree = "<group>"; };
+		0D70307520694EB200ED4C41 /* BFKLineProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFKLineProtocol.h; sourceTree = "<group>"; };
+		0D70307620694EB200ED4C41 /* BFKLineKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFKLineKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +55,7 @@
 		0D70304A20694E9600ED4C41 = {
 			isa = PBXGroup;
 			children = (
+				0D70306C20694EB200ED4C41 /* KLine */,
 				0D70305520694E9600ED4C41 /* BFKLine */,
 				0D70305420694E9600ED4C41 /* Products */,
 			);
@@ -69,6 +83,30 @@
 				0D70306520694E9600ED4C41 /* main.m */,
 			);
 			path = BFKLine;
+			sourceTree = "<group>";
+		};
+		0D70306C20694EB200ED4C41 /* KLine */ = {
+			isa = PBXGroup;
+			children = (
+				0D70306D20694EB200ED4C41 /* BFKLineView.h */,
+				0D70307320694EB200ED4C41 /* BFKLineView.m */,
+				0D70306F20694EB200ED4C41 /* BFKLineAssist */,
+				0D70307420694EB200ED4C41 /* BFKLineConfig.h */,
+				0D70306E20694EB200ED4C41 /* BFKLineConfig.m */,
+				0D70307520694EB200ED4C41 /* BFKLineProtocol.h */,
+				0D70307620694EB200ED4C41 /* BFKLineKit.h */,
+			);
+			path = KLine;
+			sourceTree = "<group>";
+		};
+		0D70306F20694EB200ED4C41 /* BFKLineAssist */ = {
+			isa = PBXGroup;
+			children = (
+				0D70307020694EB200ED4C41 /* BFKLineMaskTipView.h */,
+				0D70307220694EB200ED4C41 /* BFKLineMaskTipView.m */,
+				0D70307120694EB200ED4C41 /* BFKLineMaskTipView.xib */,
+			);
+			path = BFKLineAssist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +169,7 @@
 			files = (
 				0D70306320694E9600ED4C41 /* LaunchScreen.storyboard in Resources */,
 				0D70306020694E9600ED4C41 /* Assets.xcassets in Resources */,
+				0D70307820694EB200ED4C41 /* BFKLineMaskTipView.xib in Resources */,
 				0D70305E20694E9600ED4C41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D70307A20694EB200ED4C41 /* BFKLineView.m in Sources */,
 				0D70305B20694E9600ED4C41 /* ViewController.m in Sources */,
+				0D70307920694EB200ED4C41 /* BFKLineMaskTipView.m in Sources */,
 				0D70306620694E9600ED4C41 /* main.m in Sources */,
 				0D70305820694E9600ED4C41 /* AppDelegate.m in Sources */,
+				0D70307720694EB200ED4C41 /* BFKLineConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
