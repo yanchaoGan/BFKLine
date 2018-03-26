@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				0D70306C20694EB200ED4C41 /* KLine */,
-				0D70305520694E9600ED4C41 /* BFKLine */,
+				0D70305520694E9600ED4C41 /* demo */,
 				0D70305420694E9600ED4C41 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +69,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0D70305520694E9600ED4C41 /* BFKLine */ = {
+		0D70305520694E9600ED4C41 /* demo */ = {
 			isa = PBXGroup;
 			children = (
 				0D70305620694E9600ED4C41 /* AppDelegate.h */,
@@ -82,7 +82,7 @@
 				0D70306420694E9600ED4C41 /* Info.plist */,
 				0D70306520694E9600ED4C41 /* main.m */,
 			);
-			path = BFKLine;
+			path = demo;
 			sourceTree = "<group>";
 		};
 		0D70306C20694EB200ED4C41 /* KLine */ = {
