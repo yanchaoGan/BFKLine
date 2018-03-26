@@ -62,10 +62,6 @@
     self.lineDatas = [NSMutableDictionary dictionary];
     self.backgroundColor = [UIColor whiteColor];
     
-//    _scrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
-//    [self addSubview:_scrollView];
-//    _scrollView.contentSize = self.bounds.size;
-    
     self.toastView.frame = self.bounds;
     [self addSubview:self.toastView];
 }

@@ -12,7 +12,7 @@
 #endif /* BFKLineKit_h */
 
 /*
- 参考
+ thanks to
  https://github.com/WillkYang/YYStock
  https://github.com/danielgindi/Charts
  */
